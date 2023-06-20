@@ -1,0 +1,48 @@
+.header {
+  position: sticky;
+  top: 0;
+  padding: 0 4rem;
+  background: var(--primary-color-3);
+  height: 10vh;
+  z-index: 1000;
+}
+
+.header .routes {
+  position: relative;
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.header .routes::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: var(--primary-color-1);
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.header .routes li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .routes .route {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary-color-1);
+  transition: 0.1s;
+}
+
+.header .routes .route:hover,
+.header .routes .active {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: var(--secondary-color-1);
+}
