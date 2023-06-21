@@ -1,0 +1,15 @@
+.hard-skill {
+  width: 100%;
+  background: var(--secondary-color-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  list-style: none;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 2px 1px var(--primary-color-1);
+}
+
+.hard-skill img {
+  width: 100%;
+}
