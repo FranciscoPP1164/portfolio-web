@@ -7,6 +7,6 @@ body {
   background: var(--primary-color-3);
 }
 
-section {
-  height: 90vh;
+section:not(#shadow-host-companion) {
+  min-height: 90svh;
 }

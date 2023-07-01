@@ -20,13 +20,18 @@
   row-gap: 1rem;
 }
 
+#skills .hard-skills {
+  width: 40%;
+}
+
 #skills .hard-skills ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  grid-template-columns: repeat(4, 22%);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 1rem;
+  justify-content: space-between;
+  row-gap: 1rem;
   grid-auto-flow: dense;
-  width: 80%;
+  width: 100%;
 }
 
 #skills .soft-skills ul {

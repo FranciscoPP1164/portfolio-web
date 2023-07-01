@@ -1,0 +1,33 @@
+.service {
+  color: var(--secondary-color-1);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 1px 8px 1px var(--primary-color-1);
+  border-radius: 1rem;
+  margin: 10px;
+}
+
+.service h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.service h2::first-letter{
+  font-size: 2rem;
+}
+
+.service img {
+  width: 25%;
+}
+
+.service p {
+  font-size: 1.2rem;
+}
+
+.service p::first-letter{
+  font-size: 1.6rem;
+  font-weight: 900;
+}
